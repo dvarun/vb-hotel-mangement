@@ -1,0 +1,656 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+HotelManagementSystem
+</name>
+</assembly>
+<members>
+<member name="T:Hotel_Management_System.alluserSet.CUSTOMERDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSet.CUSTOMERDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSet.CUSTOMERDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSetTableAdapters.CUSTOMERDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.alluserSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.alluserSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.alluserSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.alluserSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.alluserSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Hotel_Management_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Hotel_Management_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Hotel_Management_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1.ROOM_CATEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1.ROOM_CATERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1.ROOM_CATERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1TableAdapters.ROOM_CATETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.DataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.DataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.DataSet1)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet1TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.cust.CUSTOMERDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.cust.CUSTOMERDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.cust.CUSTOMERDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.cust">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.custTableAdapters.CUSTOMERDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.custTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.cust,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.custTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.cust,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.custTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.cust,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.custTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.custTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.cust)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.custTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.custTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.custTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.bookz.BOOKINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.bookz.BOOKINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.bookz.BOOKINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.bookz">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.bookzTableAdapters.BOOKINGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.bookz,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.bookz,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.bookz,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.bookz)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.bookzTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.bookzTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3.EMPLOYEEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3.EMPLOYEERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3.EMPLOYEERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3TableAdapters.EMPLOYEETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.DataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.DataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.DataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.BOOKINGDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.BOOKINGDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.CUSTOMERDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.PAYMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.BOOKINGRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.BOOKINGDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.CUSTOMERDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.PAYMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.BOOKINGRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.BOOKINGDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.CUSTOMERDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB.PAYMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.reportDB">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.BOOKINGTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.BOOKINGDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.CUSTOMERDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.PAYMENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.reportDB,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.reportDB,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.reportDB,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.reportDB)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.reportDBTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.BOOKINGDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.CARDDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.CUSTOMERDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.ROOMDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.ROOM_CATEDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.BOOKINGDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.CARDDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.CUSTOMERDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.ROOMRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.ROOM_CATERow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.BOOKINGDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.CARDDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.CUSTOMERDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.ROOMRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.billDs.ROOM_CATERowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.billDs">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.BOOKINGDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.CARDDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.CUSTOMERDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.ROOMTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.ROOM_CATETableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.billDs,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.billDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.billDs,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.billDs)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.billDsTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.PaySet.PAYMENTDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.PaySet.PAYMENTRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.PaySet.PAYMENTRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.PaySet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.PaySetTableAdapters.PAYMENTTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.PaySet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.PaySet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.PaySet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.PaySet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.PaySetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.custDetail.CUSTOMERDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.custDetail.CUSTOMERDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.custDetail.CUSTOMERDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.custDetail">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.custDetailTableAdapters.CUSTOMERDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.custDetail,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.custDetail,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.custDetail,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.custDetail)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.custDetailTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2.CUSTOMERDETAILDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2.CUSTOMERDETAILRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2.CUSTOMERDETAILRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2TableAdapters.CUSTOMERDETAILTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Hotel_Management_System.DataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Hotel_Management_System.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Hotel_Management_System.DataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.UpdateAll(Hotel_Management_System.DataSet2)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Hotel_Management_System.DataSet2TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
